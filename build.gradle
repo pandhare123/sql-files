@@ -1,0 +1,11 @@
+plugins {
+  id "org.sonarqube" version "4.4.1.3373"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "pandhare123_sql-files"
+    property "sonar.organization", "pandhare123"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
